@@ -1,0 +1,72 @@
+/*FUENTES*/
+@font-face {
+    font-family: 'BebasNeue';
+    src: url(font/BebasNeue.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Airstrike';
+    src: url(font/airstrike.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*ESTILOS GENERALES*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrap{
+    width: 1250px;
+    margin: 0px auto;
+}
+
+body{
+    background: url(../img/pattern.png);
+}
+
+/*CABECERA*/
+
+#header{
+    width: 100%;
+    height: 90px;
+    background-color: #2A2A31;
+    color: white;
+    font-family: 'BebasNeue';
+}
+
+#logo img{
+    float: left;
+    width: 120px;
+    height: 58px;
+    margin-top: 19px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: all 300ms;
+    line-height: 90px;
+}
+
+#menu{
+    float: right;
+    height: 90px;
+    background: transparent;
+}
+
+#menu ul li{
+    font-size: 25px;
+    display: inline-block;
+    margin: 0px -2px 0px 30px;
+    letter-spacing: 1px;
+    line-height: 90px;
+}
+
+#menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: all 300ms;
+}
