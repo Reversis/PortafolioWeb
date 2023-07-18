@@ -1,3 +1,31 @@
+*{
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
+    background-color: gainsboro;
     width: 100%;
+}
+
+.portada{
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 90%;
+    height: 19.4375rem;
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0px 0px 15px 0px black;
+}
+
+.perfil img{
+    display: block;
+    float: left;
+    width: 20%;
+    height: 266.14px;
+    margin-top: 22px;
+    margin-left: 25px;
+    border-radius: 12px;
 }
