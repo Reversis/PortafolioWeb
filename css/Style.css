@@ -1,7 +1,23 @@
+/*FUENTE*/
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('font/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('font/Montserrat-Bold.ttf');
+}
+
+/*GENERALES*/
 *{
-    font-style: normal;
     margin: 0px;
     padding: 0px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
 }
 
 body{
@@ -13,19 +29,68 @@ body{
     display: block;
     margin: 0 auto;
     margin-top: 70px;
-    width: 90%;
+    width: 75%;
     height: 19.4375rem;
     background-color: white;
-    border-radius: 0.75rem;
+    border-radius: 12px;
     box-shadow: 0px 0px 15px 0px black;
 }
 
 .perfil img{
     display: block;
     float: left;
-    width: 20%;
+    width: 248px;
     height: 266.14px;
     margin-top: 22px;
     margin-left: 25px;
     border-radius: 12px;
+}
+
+.portada-texto{
+    display: block;
+    width: 70%;
+    margin-left: 19.4375rem;
+    padding-top: 1.25em;
+}
+
+.portada-texto h3{
+    font-family: 'MontserratBold';
+    font-size: 1.5rem;
+    margin-bottom: 7px;
+}
+
+.portada-texto h4{
+    font-family: 'MontserratRegular';
+    font-size: 1.125rem;
+    margin-bottom: 2.315rem;
+}
+
+.portada-texto p{
+    font-family: 'MontserratRegular';
+    color: gray;
+    font-size: 1.125rem;
+}
+
+.portada-info{
+    display: flex;
+    float: right;
+    padding-right: 44px;
+    padding-top: 17px;
+}
+
+.portada-info-texto{
+    display: block;
+    font-family: 'MontserratRegular';
+    font-size: 18px;
+}
+
+.portada-info-texto .correo{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    line-height: 24px;
+}
+
+.portada-info-texto .telefono{
+    margin-left: 20px;
+    line-height: 24px;
 }
