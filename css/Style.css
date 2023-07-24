@@ -70,28 +70,52 @@ body{
     font-size: 1.125rem;
 }
 
-.portada-info{
-    display: flex;
-    float: right;
-    padding-right: 44px;
-    padding-top: 17px;
+.portada-texto button{
+    font-family: 'MontserratBold';
+    background-color: white;
+    width: 7.375rem;
+    height: 2.0625rem;
+    border: 1px solid;
+    border-radius: 12px;
+    margin-top: 30px;
 }
 
-.portada-info-texto{
+.portada-texto button > a{
     display: block;
-    font-family: 'MontserratRegular';
-    font-size: 18px;
+    text-decoration: none;
+    color: black;
 }
 
-.portada-info-texto .correo{
-    margin-bottom: 10px;
-    margin-left: 20px;
-    line-height: 24px;
+.portada-texto button:hover{
+    font-family: 'MontserratBold';
+    background-color: #2F80ED;
+    color: white;
+    width: 7.375rem;
+    height: 2.0625rem;
+    border: 1px solid #2F80ED;
+    border-radius: 12px;
+    margin-top: 30px;
 }
 
-.portada-info-texto .telefono{
-    margin-left: 20px;
-    line-height: 24px;
+.portada-texto button:hover > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    margin-left: 100px;
+}
+
+.mail img{
+    display: block;
+    float: left;
+}
+
+.phone img{
+    display: block;
+    float: left;
+    margin-top: 10px;
 }
 
 /*Habilidades profesionales*/
@@ -202,6 +226,8 @@ ul{
     border-radius: 5px;
 }
 
+/*Mini Blog*/
+
 .blog{
     display: block;
     float: left;
@@ -258,6 +284,8 @@ ul{
 .blog a:hover{
     text-decoration: underline;
 }
+
+/*Hobbies*/
 
 .hobbies{
     display: block;
@@ -347,6 +375,8 @@ ul{
     margin-left: 30px;
 }
 
+/*experiencias*/
+
 .experiencias{
     display: block;
     float: left;
@@ -375,7 +405,6 @@ ul{
     display: block;
     float: left;
     width: 7.45325rem;
-    height: 5.25rem;
     margin-top: 58px;
     margin-left: 50px;
 }
@@ -442,6 +471,8 @@ ul{
     color: #828282;
 }
 
+/*Project*/
+
 .project{
     display: block;
     margin: 0 auto;
@@ -460,6 +491,7 @@ ul{
 }
 
 .project button{
+    font-family: 'MontserratBold';
     background-color: white;
     width: 7.375rem;
     height: 2.0625rem;
@@ -490,4 +522,119 @@ ul{
 .project button:hover > a{
     text-decoration: none;
     color: white;
+}
+
+.cards{
+    width: 75%;
+    height: 35.5rem;
+    margin: 0 auto;
+    padding-left: 2px;
+    margin-top: 26px;
+}
+
+.card-content{
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 32%;
+    height: 40.5rem;
+    margin-left: 1px;
+    background: white;
+    border-radius: 16px;
+}
+
+.card-content:last-child{
+    margin-left: 27px;
+}
+
+.card-content:nth-child(2){
+    margin-left: 27px;
+}
+
+.card-content img{
+    width: 30.25rem;
+    height: 20.5625rem;
+    margin-left: -10px;
+    border-bottom: 1px solid grey;
+}
+
+.card-content h4{
+    font-family: 'MontserratRegular';
+    font-size: 16px;
+    color: #828282;
+    margin-top: 10px;
+    margin-left: 28px;
+}
+
+.card-content h3{
+    font-family: 'MontserratBold';
+    font-size: 24px;
+    margin-left: 28px;
+    margin-top: 20px;
+}
+
+.card-content p{
+    font-family: 'MontserratRegular';
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 396px;
+    color: #828282;
+}
+
+.card-content a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-family: 'MontserratRegular';
+    font-size: 18px;
+    color: #2F80ED;
+    width: 118px;
+    height: 46px;
+    margin-left: 28px;
+    text-align: center;
+    line-height: 46px;
+    border: 1px solid #2F80ED;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.card-content a:hover{
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-family: 'MontserratRegular';
+    font-size: 18px;
+    color: #2F80ED;
+    width: 118px;
+    height: 46px;
+    margin-left: 28px;
+    text-align: center;
+    line-height: 46px;
+    border: 1px solid #2F80ED;
+    background-color: #2F80ED;
+    color: white;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+footer{
+    font-family: 'MontserratRegular';
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #828282;
+}
+
+footer a{
+    font-family: 'MontserratBold';
+    text-decoration: none;
+    color: #828282;
+}
+
+footer a:hover{
+    font-family: 'MontserratBold';
+    text-decoration: underline;
+    color: #828282;
 }
