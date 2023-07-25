@@ -126,7 +126,7 @@ body{
     background-color: white;
     width: 25%;
     margin: 0 auto;
-    margin-left: 238px;
+    margin-left: 12.5%;
     margin-top: 35px;
     height: 18.9375rem;
     border-radius: 12px;
@@ -234,7 +234,7 @@ ul{
     background-color: white;
     width: 48%;
     margin: 0 auto;
-    margin-left: 38px;
+    margin-left: 2%;
     margin-top: 35px;
     height: 28.00663rem;
     border-radius: 12px;
@@ -243,7 +243,7 @@ ul{
 .blog img{
     display: block;
     float: right;
-    width: 396px;
+    width: 45%;
     height: 321px;
     border-radius: 12px 0px 0px 12px;
 }
@@ -293,7 +293,7 @@ ul{
     background-color: white;
     width: 25%;
     margin: 0 auto;
-    margin-left: 238px;
+    margin-left: 12.5%;
     margin-top: -114px;
     height: 46.9375rem;
     border-radius: 12px; 
@@ -307,7 +307,7 @@ ul{
 }
 
 .gaming img{
-    width: 24.9375rem;
+    width: 84%;
     height: 7.5625rem;
     border-radius: 12px;
     margin-top: 25px;
@@ -330,7 +330,7 @@ ul{
 }
 
 .anime img{
-    width: 24.9375rem;
+    width: 84%;
     height: 7.5625rem;
     border-radius: 12px;
     margin-top: 25px;
@@ -353,7 +353,7 @@ ul{
 }
 
 .multimedia img{
-    width: 24.9375rem;
+    width: 84%;
     height: 7.5625rem;
     border-radius: 12px;
     margin-top: 25px;
@@ -383,7 +383,7 @@ ul{
     background-color: white;
     width: 48%;
     margin: 0 auto;
-    margin-left: 38px;
+    margin-left: 2%;
     margin-top: 35px;
     height: 602px;
     border-radius: 12px;
@@ -404,7 +404,7 @@ ul{
 .castillo img{
     display: block;
     float: left;
-    width: 7.45325rem;
+    width: 15%;
     margin-top: 58px;
     margin-left: 50px;
 }
@@ -428,7 +428,7 @@ ul{
 .castillo p{
     font-family: 'MontserratRegular';
     font-size: 16px;
-    width: 545px;
+    width: 60%;
     margin-left: 281px;
     margin-top: 56px;
     color: #828282;
@@ -442,7 +442,7 @@ ul{
 .simpapel img{
     display: block;
     float: left;
-    width: 15.45325rem;
+    width: 30%;
     margin-top: 56px;
 }
 
@@ -465,7 +465,7 @@ ul{
 .simpapel p{
     font-family: 'MontserratRegular';
     font-size: 16px;
-    width: 545px;
+    width: 60%;
     margin-left: 280px;
     margin-top: 56px;
     color: #828282;
@@ -544,15 +544,15 @@ ul{
 }
 
 .card-content:last-child{
-    margin-left: 27px;
+    margin-left: 1.8%;
 }
 
 .card-content:nth-child(2){
-    margin-left: 27px;
+    margin-left: 2%;
 }
 
 .card-content img{
-    width: 30.25rem;
+    width: 105%;
     height: 20.5625rem;
     margin-left: -10px;
     border-bottom: 1px solid grey;
