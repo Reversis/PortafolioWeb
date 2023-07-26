@@ -1,5 +1,17 @@
-/*@media (max-width: 1786px) {
+@media (max-width: 1759px) {
+    .skill-progress{
+        width: 11.80325rem;
+    }
+}
+
+@media (max-width: 1747px) {
     .blog p{
         font-size: 15px;
     }
-}*/
+}
+
+@media (max-width: 1716px) {
+    .blog p{
+        font-size: 15px;
+    }
+}
