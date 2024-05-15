@@ -15,3 +15,14 @@
         font-size: 15px;
     }
 }
+
+@media (max-width: 1491px) {
+    .skill-progress{
+        width: 09.80325rem;
+    }
+    .blog p{
+        font-size: 13px
+        width: 350px
+    }
+        
+}
